@@ -50,8 +50,8 @@ public class ProductApplication {
             Customer c1 = new Customer("Ben", "Whitely", "bwhitely@live.com", "0403357524");
             Customer c2 = new Customer("Toula", "Kenyon", "tkenyon@gmail.com", "0411234123");
 
-            Product p1 = new Product("iPhone 13", "Good phone", 1199.00);
-            Product p2 = new Product("Dell Laptop", "Fast", 2399.99);
+            Product p1 = new Product("iPhone 13", "Good phone", 1199.00f);
+            Product p2 = new Product("Dell Laptop", "Fast", 2399.99f);
 
             customerRepository.save(c1);
             customerRepository.save(c2);

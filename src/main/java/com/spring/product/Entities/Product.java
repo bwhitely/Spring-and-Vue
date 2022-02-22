@@ -17,11 +17,11 @@ public class Product {
     private String category;
 
     @Column(name = "price")
-    private double price;
+    private float price;
 
     public Product(){}
 
-    public Product(String productName, String category, double price) {
+    public Product(String productName, String category, float price) {
         super();
         this.productName = productName;
         this.category = category;
@@ -52,11 +52,11 @@ public class Product {
         this.category = category;
     }
 
-    public double getPrice() {
+    public float getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(float price) {
         this.price = price;
     }
 }
