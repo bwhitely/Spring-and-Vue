@@ -6,8 +6,8 @@ import javax.persistence.*;
 public class Product {
 
     @Id
-    @Column(name = "product_id")
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(name = "product_name")
